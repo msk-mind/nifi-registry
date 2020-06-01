@@ -13,6 +13,6 @@ clean:
 ## run nifi-registry container
 run: clean build
 	docker run --name nifi-registry \
-	-p 18080:18080 \
+	-p 8084:18080 \
 	flow-registry:latest
 

@@ -22,7 +22,7 @@ The main steps are:
 
 - Create a new bucket in settings from top right.
 - Add registry in NiFi UI Settings -> Registry Clients
-e.g. http://172.17.0.1:18080/nifi-registry
+e.g. http://172.17.0.1:18080
 *Note*: Get Nifi Registry hostname from ```docker inspect nifi-registry | grep Gateway```
 - Start versioning your process groups, or import process groups from the registry.
 

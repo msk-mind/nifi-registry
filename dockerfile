@@ -11,7 +11,7 @@ RUN apt update \
     && apt-get upgrade -y \
     && apt install -y git
 
-RUN git clone https://${token}@github.com/msk-mind/etl.git /opt/nifi-registry/nifi-registry-current/etl
+RUN git clone https://${token}@github.com/msk-mind/nifi-flow.git /opt/nifi-registry/nifi-registry-current/nifi-flow
 
 RUN chown -R nifi:nifi /opt/nifi-registry/nifi-registry-current/
 
